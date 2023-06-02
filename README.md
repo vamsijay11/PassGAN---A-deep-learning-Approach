@@ -18,6 +18,15 @@ This repo contributes:
 pip3 install -r requirements.txt
 ```
 
+### Generating password samples data taken from social media platforms.
+
+```
+run 34.py  which will take the data of a particular person from social media and generate numerous combination of passwords
+then add this file to the generated_pass.txt
+
+```
+
+
 ### Generating password samples
 
 Use the pretrained model to generate 1,000,000 passwords, saving them to `generated_pass.txt`.
@@ -56,13 +65,3 @@ You are encouraged to train using your own password leaks and datasets. Some gre
 - [Hashes.org](https://hashes.org/leaks.php): Awesome shared password recovery site. Consider donating if you have the resources ;)
 
 
-
-## Attribution and License
-
-This code is released under an [MIT License](https://github.com/igul222/improved_wgan_training/blob/master/LICENSE). You are free to use, modify, distribute, or sell it under those terms. 
-
-The credit for the code in this repository goes to [@igul222](https://github.com/igul222) for his work on the [improved_wgan_training](https://github.com/igul222/improved_wgan_training) and [@brannondorsey](https://github.com/brannondorsey) for specializing it in the PassGAN paper.
-
-This is updated version for Python 3 / TensorFlow 1.13 of their work.
-
-The PassGAN [research and paper](https://arxiv.org/abs/1709.00440) was published by Briland Hitaj, Paolo Gasti, Giuseppe Ateniese, Fernando Perez-Cruz.
